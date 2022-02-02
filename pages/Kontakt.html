@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="../image/favicon-32x32.png"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../css/font.css" />
+    <script src="../js/jquery-1.12.4.min.js"></script>
+    <script src="../js/slick.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="../css/slick.css" />
+    <link rel="stylesheet" type="text/css" href="../css/slick-theme.css" />
+    <link rel="stylesheet" href="../css/form.css" />
+    <title>Kontakt</title>
+  </head>
+  <body>
+    <div class="main _page politics">
+      <header class="main__header header">
+        <img src="../image/logo.svg" alt="" />
+        <nav class="header__nav">
+          <ul class="header__list">
+            <li class="header__item"><a href="../index.html">Home</a></li>
+            <li class="header__item">
+              <a href="./Mitgliedschaft.html">Mitgliedschaft</a>
+            </li>
+            <li class="header__item">
+              <a href="./Probetraining.html">Probetraining</a>
+            </li>
+            <li class="header__item"><a href="./Kurse.html">Kurse</a></li>
+            <li class="header__item">
+              <a href="./Training.html">Training</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="header__button btn">
+          <a href="./Kontakt.html">Kontakt</a>
+        </div>
+        <div class="header__burger"><span></span><span></span></div>
+      </header>
+    </div>
+    <div class="content">
+      <div class="_info">
+        <div class="content__wrap wrap content__info politics__info spec__info">
+          <h2 class="wrap__title">Kontakt</h2>
+
+          <form
+            action="../php/send_mail.php"
+            class="wp-main__form"
+            method="POST"
+          >
+            <div class="wp-form__inputs">
+              <input
+                type="text"
+                class="wp-form__input"
+                placeholder="Name"
+                required=""
+              />
+              <input
+                type="email"
+                class="wp-form__input"
+                placeholder="Email"
+                required=""
+              />
+            </div>
+            <input
+              type="tel"
+              class="wp-form__input"
+              placeholder="Phone Number"
+              required=""
+            />
+            <textarea
+              class="wp-form__input"
+              placeholder="Message"
+              required=""
+            ></textarea>
+            <button class="wp-form__btn_1" type="submit">Send</button>
+          </form>
+          <div class="wp-error_email_1">You entered incorrect data!</div>
+          <div class="wp-notification_1">Message sent!</div>
+        </div>
+      </div>
+    </div>
+    <footer class="footer">
+      <div class="container">
+        <ul class="footer__list lap__list">
+          <li class="footer__item footer__title">Menu</li>
+          <li class="footer__item"><a href="../index.html">Home</a></li>
+          <li class="footer__item">
+            <a href="./Mitgliedschaft.html">Mitgliedschaft </a>
+          </li>
+          <li class="footer__item">
+            <a href="./Probetraining.html">Probetraining </a>
+          </li>
+          <li class="footer__item"><a href="./Kurse.html">Kurse </a></li>
+          <li class="footer__item">
+            <a href="./Training.html">Training</a>
+          </li>
+        </ul>
+        <ul class="footer__list lap__list">
+          <li class="footer__item footer__title">Über McFIT.com</li>
+          <li class="footer__item">
+            <a href="./Kontakt.html">Kontakt</a>
+          </li>
+          <li class="footer__item">
+            <a href="./Impressum.html">Impressum</a>
+          </li>
+          <li class="footer__item">
+            <a href="./Widerrufsbelehrung.html">Widerrufsbelehrung</a>
+          </li>
+          <li class="footer__item">
+            <a href="./Datenschutz.html">Datenschutz</a>
+          </li>
+        </ul>
+        <details>
+          <summary>Menu</summary>
+          <ul class="footer__list">
+            <li class="footer__item"><a href="./index.html">Home</a></li>
+            <li class="footer__item">
+              <a href="./Mitgliedschaft.html">Mitgliedschaft </a>
+            </li>
+            <li class="footer__item">
+              <a href="./Probetraining.html">Probetraining </a>
+            </li>
+            <li class="footer__item">
+              <a href="./Kurse.html">Kurse </a>
+            </li>
+            <li class="footer__item">
+              <a href="./Training.html">Training</a>
+            </li>
+          </ul>
+        </details>
+        <details>
+          <summary>Über McFIT.com</summary>
+          <ul class="footer__list">
+            <li class="footer__item">
+              <a href="./Kontakt.html">Kontakt</a>
+            </li>
+            <li class="footer__item">
+              <a href="./Impressum.html">Impressum</a>
+            </li>
+            <li class="footer__item">
+              <a href="./Widerrufsbelehrung.html">Widerrufsbelehrung</a>
+            </li>
+            <li class="footer__item">
+              <a href="./Datenschutz.html">Datenschutz</a>
+            </li>
+          </ul>
+        </details>
+        <form action="../php/send_mail.php" method="post" class="footer__mail">
+          <div class="footer__inputs">
+            <input
+              type="email"
+              name="email"
+              class="footer__input"
+              placeholder="email"
+            />
+            <button class="footer__btn btn" type="submit">Senden</button>
+          </div>
+          <div class="wp-error_email">You entered incorrect data!</div>
+          <div class="wp-notification">Message sent!</div>
+        </form>
+      </div>
+    </footer>
+    <div class="cookies">
+      <div class="cookies__container">
+        <h3 class="cookies__title">Diese Webseite verwendet Cookies</h3>
+        <p class="cookies__text">
+          Wir verwenden Cookies, um Inhalte und Anzeigen zu personalisieren,
+          Funktionen für soziale Medien anbieten zu können und die Zugriffe auf
+          unsere Website zu analysieren. Außerdem geben wir Informationen zu
+          Ihrer Verwendung unserer Website an unsere Partner für soziale Medien,
+          Werbung und Analysen weiter. Unsere Partner führen diese Informationen
+          möglicherweise mit weiteren Daten zusammen, die Sie ihnen
+          bereitgestellt haben oder die sie im Rahmen Ihrer Nutzung der Dienste
+          gesammelt haben.
+        </p>
+        <div class="cookies__buttons">
+          <button class="cookies__btn">Auswahl erlauben</button>
+          <button class="cookies__btn cookies__btn_all">
+            Alle Cookies zulassen
+          </button>
+        </div>
+        <div class="cookies__checks">
+          <div class="cookies__check">
+            <input type="checkbox" checked="checked" disabled />
+            <span class="input__text">Notwendig</span>
+          </div>
+          <div class="cookies__check">
+            <input type="checkbox" />
+            <span class="input__text">Präferenzen</span>
+          </div>
+          <div class="cookies__check">
+            <input type="checkbox" />
+            <span class="input__text">Statistiken</span>
+          </div>
+          <div class="cookies__check">
+            <input type="checkbox" />
+            <span class="input__text">Marketing</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="../js/contact.js"></script>
+    <script src="../js/main.js"></script>
+  </body>
+</html>
